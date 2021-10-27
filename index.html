@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico" />
+    <link rel="stylesheet" href="CSS/font-awesome.css" />
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <!-- <script src="JS/scripts.js"></script> -->
+
+    <title>Tharisha Perera</title>
+  </head>
+  <body>
+    <!-- Page Loader Start -->
+    <div class="page-loader">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <!-- Page Loader End -->
+
+    <!-- Background Circles Start -->
+    <div class="bg-circles">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+      <div class="circle-3"></div>
+      <div class="circle-4"></div>
+    </div>
+    <!-- Background Circles End -->
+
+    <!-- Overlay Start -->
+    <div class="overlay"></div>
+    <!-- Overlay End -->
+
+    <!-- Main Start -->
+    <div class="main hidden">
+      <!-- Header Start -->
+      <header class="header">
+        <div class="container">
+          <div class="row flex-end">
+            <button type="button" class="nav-toggler">
+              <span></span>
+            </button>
+            <nav class="nav">
+              <div class="nav-inner">
+                <ul>
+                  <li><a href="#home" class="nav-item link-item">Home</a></li>
+                  <li><a href="#about" class="nav-item link-item">About</a></li>
+                  <li>
+                    <a href="#portfolio" class="nav-item link-item"
+                      >Portfolio</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#contact" class="nav-item link-item">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- Header End -->
+
+      <!-- Home Section Start -->
+      <section class="home-section align-items-center" id="home">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="home-text">
+              <p>Hello, I'm</p>
+              <h1>Tharisha Perera</h1>
+              <h2>Software Developer</h2>
+              <a href="#about" class="btn link-item">More about me</a>
+              <a href="#portfolio" class="btn link-item">Portfolio</a>
+            </div>
+            <div class="home-img">
+              <div class="img-box">
+                <img src="Images/profile-img.png" alt="Profile Image" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Home Section End -->
+
+      <!-- About Section Strat -->
+      <section class="about-section sec-padding" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>About Me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-img">
+              <div class="img-box">
+                <img src="Images/about-img.png" alt="About Image" />
+              </div>
+            </div>
+            <div class="about-text">
+              <p>
+                A motivated individual with in-depth knowledge of languages and
+                development tools, seeking a position in a growth-oriented
+                company where I can use my skills to the advantage of the
+                company while having the scope to develop my own skills
+              </p>
+              <h3>Skills</h3>
+              <div class="skills">
+                <div class="skill-item">HTML</div>
+                <div class="skill-item">CSS</div>
+                <div class="skill-item">Javascript</div>
+                <div class="skill-item">php</div>
+                <div class="skill-item">Java</div>
+                <div class="skill-item">C#</div>
+                <div class="skill-item">C++</div>
+                <div class="skill-item">C</div>
+                <div class="skill-item">SQL</div>
+                <div class="skill-item">MySQL</div>
+                <div class="skill-item">MS SQL Server</div>
+              </div>
+
+              <div class="about-tabs">
+                <button
+                  type="button"
+                  id="btnEdu"
+                  class="tab-item active"
+                  data-target="#education"
+                  onclick="changeEduClass()"
+                >
+                  Education
+                </button>
+                <button
+                  type="button"
+                  id="btnExp"
+                  class="tab-item"
+                  data-target="#experiance"
+                  onclick="changeExpClass()"
+                >
+                  Experience
+                </button>
+              </div>
+
+              <!-- Education Start -->
+              <div class="tab-content active" id="education">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">2020 - 2021</span>
+                    <h4>
+                      Diploma In Software Engineering -
+                      <span>National Institute Of Business Management</span>
+                    </h4>
+                    <p>
+                      knowledge and skills in computer programming and software
+                      Engineering required to develop Information Systems used
+                      in Business and Industrial environments with a good
+                      understanding of the current position and challenges of
+                      the IT industry.
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">2017 - 2019</span>
+                    <h4>
+                      Mathematics -
+                      <span>De Mazenod College, Kandana</span>
+                    </h4>
+                    <p>
+                      De Mazenod College, Kandana, The school where I studied
+                      for 13 years and did Advanced levels in Mathematics
+                      Stream. Where I gathered knowledge, decepline. Also I was
+                      a Football player and a active student in every occasion.
+                    </p>
+                  </div>
+                  <!-- <div class="timeline-item">
+                    <span class="date">2021 - 2022</span>
+                    <h4>
+                      Higher National Diploma In Software Engineering -
+                      <span>National Institute Of Business Management</span>
+                    </h4>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Blanditiis magnam magni debitis illo saepe doloremque.
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">2022 - 2024</span>
+                    <h4>
+                      BSc(Hons) Software Engineering -
+                      <span>National Institute Of Business Management</span>
+                    </h4>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Blanditiis magnam magni debitis illo saepe doloremque.
+                    </p>
+                  </div> -->
+                </div>
+              </div>
+              <!-- Education End -->
+
+              <!-- Experience Start -->
+              <div class="tab-content" id="experience">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">2019 - 2021</span>
+                    <h4>
+                      Production Associate -
+                      <span>Innodata Lanka (Pvt) ltd</span>
+                    </h4>
+                    <p>
+                      I have been working full-time as a production associate at
+                      Innodata Lanka (Pvt) Ltd for two years. As a production
+                      associate I have worked with a team of 50 people with XML
+                      data conversions. I have developed my skills and became
+                      the team leader for a team of 5 people, demonstrating my
+                      ability to use my initiative and motivate my colleagues.
+                    </p>
+                  </div>
+                  <!-- <div class="timeline-item">
+                    <span class="date">2019 - 2021</span>
+                    <h4>
+                      Production Associate -
+                      <span>Innodata Lanka (Pvt) ltd</span>
+                    </h4>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Neque ab repellendus itaque perspiciatis unde modi!
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">2019 - 2021</span>
+                    <h4>
+                      Production Associate -
+                      <span>Innodata Lanka (Pvt) ltd</span>
+                    </h4>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Neque ab repellendus itaque perspiciatis unde modi!
+                    </p>
+                  </div> -->
+                </div>
+              </div>
+              <!-- Experience End -->
+              <a href="Tharisha_CV.pdf" target="_blank" class="btn"
+                >Download CV</a
+              >
+              <a href="#contact" class="btn link-item">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Section End -->
+
+      <!-- Portfolio Start -->
+      <section class="portfolio-section sec-padding" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>Recent Work</h2>
+            </div>
+          </div>
+          <!-- Portfolio Item Start -->
+          <div class="row">
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="Images/RecentWorks/1.jpg"
+                  alt="portfolio item thumb"
+                />
+              </div>
+              <h3 class="portfolio-item-title">Education Course Website</h3>
+              <button type="button" class="btn view-project-btn">
+                View Project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Dolorem quia ratione ducimus rem, porro culpa debitis dolore
+                    possimus iusto deserunt! Perferendis temporibus, maxime
+                    doloremque atque, sit minima illo beatae aspernatur repellat
+                    nisi eveniet, nulla fuga? Perferendis aliquid qui beatae
+                    deserunt!
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>4 December 2020</span></li>
+                    <li>Technologies Used - <span>HTML, CSS</span></li>
+                    <li>Role - <span>Front-End</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a href="#" target="_blank">www.domain.com</a></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="Images/RecentWorks/2.jpg"
+                  alt="portfolio item thumb"
+                />
+              </div>
+              <h3 class="portfolio-item-title">Personal Portfolio Website</h3>
+              <button type="button" class="btn view-project-btn">
+                View Project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Dolorem quia ratione ducimus rem, porro culpa debitis dolore
+                    possimus iusto deserunt! Perferendis temporibus, maxime
+                    doloremque atque, sit minima illo beatae aspernatur repellat
+                    nisi eveniet, nulla fuga? Perferendis aliquid qui beatae
+                    deserunt!
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>4 December 2020</span></li>
+                    <li>Technologies Used - <span>Bootstrap 5</span></li>
+                    <li>Role - <span>Front-End</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a href="#" target="_blank">www.domain.com</a></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="Images/RecentWorks/3.jpg"
+                  alt="portfolio item thumb"
+                />
+              </div>
+              <h3 class="portfolio-item-title">App Landing Page</h3>
+              <button type="button" class="btn view-project-btn">
+                View Project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Dolorem quia ratione ducimus rem, porro culpa debitis dolore
+                    possimus iusto deserunt! Perferendis temporibus, maxime
+                    doloremque atque, sit minima illo beatae aspernatur repellat
+                    nisi eveniet, nulla fuga? Perferendis aliquid qui beatae
+                    deserunt!
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>4 December 2020</span></li>
+                    <li>
+                      Technologies Used - <span>HTML, CSS, Bootstrap 4</span>
+                    </li>
+                    <li>Role - <span>Front-End</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a href="#" target="_blank">www.domain.com</a></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="Images/RecentWorks/4.jpg"
+                  alt="portfolio item thumb"
+                />
+              </div>
+              <h3 class="portfolio-item-title">Restuarent Website</h3>
+              <button type="button" class="btn view-project-btn">
+                View Project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Dolorem quia ratione ducimus rem, porro culpa debitis dolore
+                    possimus iusto deserunt! Perferendis temporibus, maxime
+                    doloremque atque, sit minima illo beatae aspernatur repellat
+                    nisi eveniet, nulla fuga? Perferendis aliquid qui beatae
+                    deserunt!
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>4 December 2020</span></li>
+                    <li>
+                      Technologies Used - <span>HTML, CSS, JavaScript</span>
+                    </li>
+                    <li>Role - <span>Front-End</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a href="#" target="_blank">www.domain.com</a></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="Images/RecentWorks/5.jpg"
+                  alt="portfolio item thumb"
+                />
+              </div>
+              <h3 class="portfolio-item-title">Personal Portfolio Website</h3>
+              <button type="button" class="btn view-project-btn">
+                View Project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Dolorem quia ratione ducimus rem, porro culpa debitis dolore
+                    possimus iusto deserunt! Perferendis temporibus, maxime
+                    doloremque atque, sit minima illo beatae aspernatur repellat
+                    nisi eveniet, nulla fuga? Perferendis aliquid qui beatae
+                    deserunt!
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>4 December 2020</span></li>
+                    <li>
+                      Technologies Used - <span>HTML, CSS, JavaScript</span>
+                    </li>
+                    <li>Role - <span>Front-End</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a href="#" target="_blank">www.domain.com</a></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="Images/RecentWorks/6.jpg"
+                  alt="portfolio item thumb"
+                />
+              </div>
+              <h3 class="portfolio-item-title">Product Landing Page</h3>
+              <button type="button" class="btn view-project-btn">
+                View Project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Dolorem quia ratione ducimus rem, porro culpa debitis dolore
+                    possimus iusto deserunt! Perferendis temporibus, maxime
+                    doloremque atque, sit minima illo beatae aspernatur repellat
+                    nisi eveniet, nulla fuga? Perferendis aliquid qui beatae
+                    deserunt!
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>4 December 2020</span></li>
+                    <li>
+                      Technologies Used - <span>HTML, CSS, JavaScript</span>
+                    </li>
+                    <li>Role - <span>Front-End</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a href="#" target="_blank">www.domain.com</a></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Item End -->
+        </div>
+      </section>
+      <!-- Portfolio End -->
+
+      <!-- Contact Section Start -->
+      <section class="contact-section sec-padding" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>Contact Me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="contact-form">
+              <form id="myForm" method="post" action="PHP/PHPMail.php">
+                <div class="row">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      name="Name"
+                      placeholder="Name"
+                      class="input-control"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      name="Email"
+                      placeholder="Email"
+                      class="input-control"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      name="Subject"
+                      placeholder="Subject"
+                      class="input-control"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <textarea
+                      name="Body"
+                      placeholder="Message"
+                      class="input-control"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="submit-btn">
+                    <button type="submit" name="submit" class="btn">
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <h3>Email</h3>
+                <p>tharishaperera@gmail.com</p>
+              </div>
+              <div class="contact-info-item">
+                <h3>Phone</h3>
+                <p>+94 71 683 16 06</p>
+              </div>
+              <div class="contact-info-item">
+                <h3>Follow Me</h3>
+                <div class="social-links">
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100007492698410"
+                    target="_blank"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a
+                    href="https://www.instagram.com/___t.h.a.r.i.y.a___/"
+                    target="_blank"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/in/tharisha-perera"
+                    target="_blank"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Section End -->
+    </div>
+    <!-- Main End -->
+
+    <!-- Portfolio Item Details Popup Start -->
+    <div class="portfolio-popup">
+      <div class="pp-inner">
+        <div class="pp-content">
+          <div class="pp-header">
+            <button type="button" class="btn pp-close">
+              <i class="fas fa-times"></i>
+            </button>
+            <div class="pp-thumbnail">
+              <img src="Images/portfolio/3.jpg" alt="pp-thumbnail" />
+            </div>
+            <h3></h3>
+          </div>
+          <div class="pp-body"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio Item Details Popup End -->
+
+    <script src="JS/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </body>
+</html>
