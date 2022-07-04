@@ -26,5 +26,6 @@
             echo 'alert("Message send unsuccessfull.")';
             echo '</script>';
         }
+        header("Location: https://tharishaperera.github.io/portfolio");
     }
 ?>
